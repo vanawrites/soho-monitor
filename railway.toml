@@ -1,5 +1,2 @@
-[build]
-buildCommand = "pip install -r requirements.txt && PLAYWRIGHT_BROWSERS_PATH=/app/.playwright playwright install chromium"
-
 [deploy]
-startCommand = "PLAYWRIGHT_BROWSERS_PATH=/app/.playwright python soho_appt_monitor.py"
+startCommand = "python soho_appt_monitor.py"
